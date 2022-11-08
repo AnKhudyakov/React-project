@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#page-wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.header_container {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  color: #fff;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 163, 228, 1) 0%,
+    rgba(10, 133, 195, 1) 50%,
+    rgba(10, 133, 195, 1) 51%,
+    rgba(17, 111, 174, 1) 71%,
+    rgba(21, 97, 159, 1) 100%
+  );
+}
+.header_logo {
+  height: 100%;
+  min-width: 400px;
+  position: relative;
+  background-position: top;
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url(../components/UI/logo/istore-logo.png);
+}
+
+.header_cart {
+  height: 100%;
+  min-width: 100px;
+  padding-right: 10px;
+  background-image: url(../components/UI/logo/shopping_cart.svg);
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background: #00a5ef;
+}
+.navbar_content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.navbar_btn,
+.navbar_links {
+  display: flex;
+  align-content: center;
+  height: 100%;
+}
+
+.navbar_btn button,
+.navbar_links a {
+  height: 100%;
+  padding: 15px 20px;
+  border: none;
+  border-right: 1px solid rgba(21, 97, 159, 1);
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 163, 228, 1) 0%,
+    rgba(10, 133, 195, 1) 50%,
+    rgba(10, 133, 195, 1) 51%,
+    rgba(17, 111, 174, 1) 71%,
+    rgba(21, 97, 159, 1) 100%
+  );
+}
+
+main {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.Posts {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.3),
+    rgba(255, 255, 255, 0.04)
+  );
+}
+
+.post {
+  display: flex;
+  padding: 15px;
+  border: 2px solid #00a5ef;
+  margin: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post_filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.post_list {
+  width: 100%;
+  height: 100%;
+}
+
+.post_btns {
+  display: flex;
+}
+
+.post-enter {
+  transform: translateX(-350px);
+}
+.post-enter-active {
+  transform: translateX(0px);
+  transition: All 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateX(-350px);
+  transition: All 500ms ease-in;
+}
+
+.page__wrapper {
+  margin-top: 30px;
+  display: flex;
+}
+
+.page {
+  padding: 10px;
+  border: 1px solid #00a5ef;
+  cursor: pointer;
+}
+.page__current {
+  border: 2px solid orange;
+  font-weight: bold;
+}
+
+.about_container {
+  padding: 0 20px;
+}
+
+.envelope {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-size: cover;
+  background-image: url(../components/UI/logo/envelope.svg);
+}
+
+.phone {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-size: cover;
+  background-image: url(../components/UI/logo/telephone.svg);
+}
