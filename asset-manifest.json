@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-project/static/css/main.a323fa1d.css",
+    "main.js": "/React-project/static/js/main.7143e47c.js",
+    "static/media/istore-logo.png": "/React-project/static/media/istore-logo.bd16d5c4a1e82d164933.png",
+    "static/media/shopping_cart.svg": "/React-project/static/media/shopping_cart.94d7affb8515920b0402.svg",
+    "static/media/telephone.svg": "/React-project/static/media/telephone.13b7a69a7075bbd7e6f6.svg",
+    "static/media/envelope.svg": "/React-project/static/media/envelope.ceed57e9483391a79813.svg",
+    "index.html": "/React-project/index.html",
+    "main.a323fa1d.css.map": "/React-project/static/css/main.a323fa1d.css.map",
+    "main.7143e47c.js.map": "/React-project/static/js/main.7143e47c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a323fa1d.css",
+    "static/js/main.7143e47c.js"
+  ]
+}
